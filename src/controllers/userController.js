@@ -1,3 +1,5 @@
+const { User } = require("../models/User");
+
 class UserController {
   async register(req, res) {
     try {
